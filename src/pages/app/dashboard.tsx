@@ -1,0 +1,11 @@
+import { Helmet } from 'react-helmet-async';
+
+/* eslint-disable react/react-in-jsx-scope */
+export function Dashboard() {
+  return (
+    <>
+      <Helmet title="Dashboard" />
+      <h1>Dashboard</h1>
+    </>
+  );
+}
