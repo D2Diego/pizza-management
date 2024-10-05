@@ -83,7 +83,6 @@ export function PopularProductsChart() {
               ))}
             </Pie>
           </PieChart>{' '}
-          {/* Fechando a tag PieChart corretamente */}
         </ResponsiveContainer>
       </CardContent>
     </Card>
