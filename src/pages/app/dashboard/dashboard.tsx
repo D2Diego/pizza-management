@@ -5,6 +5,7 @@ import { MonthRevanue } from './month-revenue-card';
 import { MonthOrdersAmounthCard } from './month-orders-amount-card';
 import { DayOrdersAmountCard } from './day-orders-amount-card';
 import { MonthCanceledOrdersAmountCard } from './month-canceled-orders-amount-card';
+import { RevanueChart } from './revenue-chart';
 
 export function Dashboard() {
   return (
@@ -18,6 +19,10 @@ export function Dashboard() {
           <MonthOrdersAmounthCard />
           <DayOrdersAmountCard />
           <MonthCanceledOrdersAmountCard />
+        </div>
+
+        <div className="grid grid-cols-9 gap-4">
+          <RevanueChart />
         </div>
       </div>
     </>
