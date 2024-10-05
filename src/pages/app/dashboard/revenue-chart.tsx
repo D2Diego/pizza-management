@@ -14,9 +14,7 @@ import {
   YAxis,
   CartesianGrid,
   Line,
-  Tooltip,
 } from 'recharts';
-import { date } from 'zod';
 
 const data = [
   { date: '10/12', revenue: 1200 },
@@ -56,6 +54,7 @@ export function RevanueChart() {
                 })
               }
             />
+            <CartesianGrid vertical={false} className="stroke-muted" />
 
             <Line
               type="linear"
